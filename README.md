@@ -2,7 +2,7 @@
 ### This task was about information filtering, necessery data configuring, and API's processing.
 ## Main idea
 ### Create a program that processes .csv the file and displays the concrete users fuel transactions.
-## Steps
+## My work steps
 ### 1.Create view for .csv file uppload.
 ### 2.Filter and select only necessary data.
 ### 3.Convert time and currency.
