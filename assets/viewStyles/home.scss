@@ -1,0 +1,30 @@
+@import "../variables";
+.home {
+  font-family: $textFont;
+  h1 {
+    font-family: $titleFont;
+    color: black;
+  }
+  .btn {
+    font-family: $titleFont;
+    border: 1px solid $green;
+    background-color: transparent;
+    font-family: 1.2rem;
+    cursor: pointer;
+    color: $green;
+  }
+  .btn:hover {
+    color: black;
+    border: 1px solid black;
+  }
+  input[type="file"]::file-selector-button {
+    background-color: $green;
+    color: black;
+    padding: 10px;
+    border: none;
+    font-family: $titleFont;
+  }
+  input[type="file"]::file-selector-button:hover {
+    color: white;
+  }
+}

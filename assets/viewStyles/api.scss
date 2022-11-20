@@ -1,0 +1,10 @@
+@import "../variables";
+.api {
+  height: 60%;
+  background-color: white;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  h1 {
+    font-family: $textFont;
+  }
+}

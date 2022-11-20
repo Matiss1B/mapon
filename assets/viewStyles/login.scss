@@ -1,0 +1,78 @@
+@import "../variables";
+.main {
+  height: 100vh;
+}
+.login-logo {
+  img {
+    width: 150px;
+  }
+  h1 {
+    font-family: $titleFont;
+    color: $green;
+  }
+}
+.loginBox {
+  background-color: $grey;
+  label {
+    font-family: $textFont;
+  }
+  input {
+    font-family: $textFont;
+  }
+  h1 {
+    font-family: $titleFont;
+  }
+  p {
+    font-family: $textFont;
+  }
+  p:hover {
+    color: $green;
+  }
+  .btn {
+    background-color: $green;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    font-family: $titleFont;
+  }
+  .btn:hover {
+    color: white;
+  }
+}
+.registerBox {
+  background-color: $green;
+  label {
+    font-family: $textFont;
+  }
+  input {
+    font-family: $textFont;
+  }
+  h1 {
+    font-family: $titleFont;
+  }
+  p {
+    font-family: $textFont;
+  }
+  p:hover {
+    color: white;
+  }
+  .btn {
+    outline: 1px solid black;
+    color: black;
+    background-color: $green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    font-family: $titleFont;
+  }
+  .btn:hover {
+    background-color: transparent;
+    color: white;
+    outline: 1px solid white;
+  }
+}

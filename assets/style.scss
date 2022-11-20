@@ -1,0 +1,45 @@
+@import "bootstrap.scss";
+@import "variables";
+@import "viewStyles/login";
+@import "viewStyles/table";
+@import "viewStyles/home";
+@import "viewStyles/api";
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: $grey;
+  font-family: $titleFont;
+  a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  a:hover {
+    color: $green;
+  }
+  p {
+    color: $green;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+  p:hover {
+    color: black;
+  }
+}
+.message {
+  display: flex;
+  position: absolute;
+  background-color: #3e9237;
+  display: none;
+  font-size: 1.2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2rem;
+  width: 25%;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
