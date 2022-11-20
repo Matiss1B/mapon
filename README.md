@@ -4,7 +4,7 @@
 ### Create a program that processes .csv the file and displays the concrete users fuel transactions.
 ## Steps
 ### 1.Create view for .csv file uppload.
-### 2.Filter and select only necessery data.
+### 2.Filter and select only necessary data.
 ### 3.Convert time and currency.
 ### 4.Import in DB.
 ### 5.Process API.
