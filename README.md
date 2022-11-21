@@ -1,5 +1,5 @@
 # Mapon Task
-This task was about information filtering, necessery data configuring, and API's processing.
+### This task was about information filtering, necessery data configuring, and API's processing.
 ## Main idea
 ### Create a program that processes .csv the file and displays the concrete users fuel transactions.
 ## My work steps
